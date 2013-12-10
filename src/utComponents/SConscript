@@ -25,6 +25,7 @@ import glob
 import os.path
 
 # import variables from other scons files
+have_utdataflow = False
 Import( '*' )
 
 # a)
