@@ -10,7 +10,7 @@ Usage
 -----
 In order to use it, you have to clone the buildenvironment, change to the ubitrack directory and add the utcomponents by executing:
 
-    git submodule add https://github.com/schwoere/utcomponents.git modules/utcomponents
+    git submodule add https://github.com/Ubitrack/utcomponents.git modules/utcomponents
 
 
 Dependencies
@@ -18,11 +18,10 @@ Dependencies
 In addition, this module has to following submodule dependencies which have to be added for successful building:
 
 <table>
-
   <tr>
-    <th>Dependency</th><th>Dependent Components</th><th>optional Dependency</th>
+    <th>Component</th><th>Dependency</th>
   </tr>
   <tr>
-    <td>utdataflow</td><td>utComponents, utIOComponents</td><td>no</td>
+    <td>all</td><td>utDataflow</td>
   </tr>
 </table>
